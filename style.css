@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins", sans-serif;
+}
+body{
+    color: black;
+    padding:0rem;
+    background: white;
+
+}
+.light{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    border: 0;
+    outline: 0;
+    background: wheat;
+}
+
+.dark-mode:not(.testify){
+    background: rgb(19, 19, 49);
+    color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    margin:0rem;
+    background: rgb(19, 19, 49);
+    padding: 1rem 2rem;
+}
+nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 5rem;
+}
+.logo{
+    margin-right: 40%;
+}
+.logo img{
+    width: 10rem;
+}
+.menu{
+    display: flex;
+    
+}
+.illustration img{
+    width: 30rem;
+}
+.productive-img img{
+    width: 25rem;
+}
+.about,.illustration{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 3rem;
+}
+.about p{
+    margin-top: 2rem;
+}
+.start{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    border-radius: 30px;
+    border: 0;
+    background: rgb(7, 200, 200);
+    color: white;
+}
+.icons-div{
+    text-align: center;
+}
+.icon-container span{
+    font-size: 2rem;
+}
+.icon p{
+    margin-top: 2rem;
+}
+.icon-container, .flex{
+    display: flex;
+
+}
+.icon-container .icon{
+    margin: 2rem;
+    padding: 2rem;
+}
+.productive,.testimony{
+    margin: 5rem 2rem;
+    text-align: center;
+}
+.productive-flex{
+    display: flex;
+}
+.productive-text{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.productive-text p{
+    margin-top: 2rem;
+}
+.productive-text a{
+    color: rgb(15, 254, 254);
+}
+
+.testimony-flex{
+    display: flex;
+}
+.testify{
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    background: rgb(17, 17, 105);
+}
+.testify img{
+    width: 3rem;
+    float: left;
+    margin-top: 1rem;
+    border-radius: 50%;
+    border: 3px solid teal;
+}
+.get-started{
+    text-align: center;
+    margin: 4rem;
+    background: rgb(17, 17, 105);
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+.get-started p{
+    margin-top: 2rem;
+}
+.get-started input{
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+
+    margin-top: 2rem;
+}
+footer{
+    padding: 2rem 3rem;
+    color: white;
+    background: rgb(19, 19, 49);
+    width: 100%;
+}
+.foot{
+    display: flex;
+
+}
+.logo-side h1{
+    font-size: 3rem;
+}
+.logo-side span{
+    margin-top: 2rem;
+}
+.locate img{
+    width: .8rem;
+    margin-top: 2rem;
+}
+.contact, .quick-links, .links{
+    margin-top: 4rem;
+}
+.contact{
+    margin-top: 5rem;
+    
+}
+.contact img{
+    margin-right: 1rem;
+    width: .8rem;
+}
+.links-container{
+    display: flex;
+}
+.quick-links a, .links a{
+    display: block;
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+}
+.margin{
+    margin-right: 5rem ;
+}
+
+
+
+
+
+
+@media (max-width:500px) {
+    .icon-container, .flex, .productive-flex, .testimony-flex{
+        display: block;
+    
+    }
+    .illustration img, .productive-img img{
+        width: 22rem;
+    }
+    .testify{
+        padding: 5rem 1rem;
+    }
+    .get-started input{
+        width: 90%;
+    }
+}
+@media (max-width:942px) {
+    .foot{
+        flex-direction: column;
+    }
+   .links-container{
+    display: flex;
+   }
+}

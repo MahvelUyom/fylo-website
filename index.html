@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.svg" alt="">
+        </div>
+        <!-- <div class="menu">
+            <a href="#">Features</a>
+            <a href="#">Team</a>
+            <a href="#">Login</a>
+
+        </div> -->
+    </nav>
+
+    <div class="illustration">
+        <img src="illustration-intro.png" alt="">
+    </div>
+
+    <div class="about">
+        <h2>All your files in one secure location, accessible anywhere.</h2>
+        <p>Fylo stores all your most important files in one secure
+            location. Access them wherever you need, share, and collaborate
+            with friends, family and co-workers.
+        </p>
+        <button class="start">Get Started</button>
+        <button class="light" onclick="myFunc()">Switch theme</button>
+    </div>
+
+    <div class="icons-div">
+        <div class="icon-container">
+            <div class="icon">
+                <img src="icon-access-anywhere.svg" alt="">
+                <br>
+                <br>
+                <span class="subhead">Access your files, anywhere</span>
+                <p>The ability to use a smartphone, tablet, or a computer to
+                    access your account means your files follow you everywhere.
+                </p>
+            </div>
+            <div class="icon">
+                <img src="icon-security.svg" alt="">
+                <br>
+                <br>
+                <span class="subhead">Security you can trust</span>
+                <p>2-factor authentication and user-controlled encryption are 
+                    just a couple of the security features we allow to help
+                    secure your files.
+                </p>
+            </div>
+            </div>
+            <div class="icon-container flex">
+            <div class="icon">
+                <img src="icon-collaboration.svg" alt="">
+                <br>
+                <br>
+                <span class="subhead">Real-time Collaborations</span>
+                <p>Securely share files and folders with friends, family and colleagues for live collaboration.
+                    No email attachments required.
+                </p>
+            </div>
+            <div class="icon">
+                <img src="icon-any-file.svg" alt="">
+                <br>
+                <br>
+                <span class="subhead">Store any type of file</span>
+                <p>Whether you are sharing holidays photos or work documents, 
+                    Fylo has you covered allowing for all file types to be securely stored
+                and shared.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="productive">
+        <div class="productive-flex">
+
+            <div class="productive-img">
+                <img src="illustration-stay-productive.png" alt="">
+            </div>
+            <div class="productive-text">
+                <h2>Stay productive wherever you are</h2>
+                <p>Never let location be an issue when accessing your files.
+                    Fylo has you covered for all your file storage needs
+                    <br>
+                    <br>
+                    Securely share files and folders with friends, family and colleagues for live collaboration.
+                    No email attachments required.
+                    <br>
+                    <br>
+                    <a href="#">See how Fylo works</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimony">
+        <div class="testimony-flex">
+            <div class="testify">
+                <p>Fylo has improved our team productivity by an order of magnitude.
+                    Since making the switch our team has become a well oiled collaboration machine.
+                </p>
+                <img src="profile-1.jpg" alt="">
+            </div>
+            <div class="testify">
+                <p>Fylo has improved our team productivity by an order of magnitude.
+                    Since making the switch our team has become a well oiled collaboration machine.
+                </p>
+                <img src="profile-2.jpg" alt="">
+            </div>
+            <div class="testify">
+                <p>Fylo has improved our team productivity by an order of magnitude.
+                    Since making the switch our team has become a well oiled collaboration machine.
+                </p>
+                <img src="profile-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="get-started">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely 
+            generous. <br> If you have any questions, our support team would be happy to help.
+        </p>
+        <input type="email" placeholder="Your Email">
+        <button class="start">Get free access</button>
+    </div>
+
+
+    <footer>
+        <div class="foot">
+            <div class="logo-side margin">
+                <img src="logo.svg" alt="">
+
+                <div class="locate">
+                <img src="icon-location.svg" alt="">
+                </div>
+
+                <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br>
+                    Magni nostrum deserunt dignissimos, rem doloribus iusto consequuntur!</span>
+             </div>
+
+            <div class="contact margin">
+                <span><img src="icon-phone.svg" alt="">+234-8132-005-541</span>
+                <br>
+                <br>
+                <span><img src="icon-email.svg" alt="">email@email.com</span>
+                
+            </div>
+            
+            <div class="links-container">
+            <div class="quick-links margin">
+                <a href="#">About Us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+
+            </div>
+            <div class="links margin">
+                <a href="#">Contact us</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+            </div>
+
+            <!-- <div class="sm-icons">
+                <div class="social">
+                    <img src="" alt="">
+                </div>
+                <div class="social">
+                    <img src="" alt="">
+                </div>
+                <div class="social">
+                    <img src="" alt="">
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunc(){
+            let element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
